@@ -1,0 +1,7 @@
+if(compra >= 100){
+    console-log("Compra mayor de $100")
+}else if(compra >= 200 && compra >= 300){
+    console.log("Compra menos a $100")
+}else if(compra >= 300){
+
+}
