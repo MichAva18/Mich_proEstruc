@@ -1,9 +1,10 @@
 import readline from "node:readline";
 
-const rl = readline.createInterface({
-    input: process.stdin,
-    output: process.stdout
-});
+ const rl = readline.createInterface({
+     input: process.stdin,
+     output: process.stdout
+ });
+ 
 
 rl.question('Ingrese el nombre del producto: ', (nombre) => {
     rl.question('Ingrese el precio del producto unitario: ', (precio) => {
